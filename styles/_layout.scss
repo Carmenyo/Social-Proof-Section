@@ -1,10 +1,66 @@
-// FONTS
-$font-family: 'League Spartan', sans-serif;
-$font-size: .9rem;
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 
-// COLORS
-$Very-Dark-Magenta: hsl(300, 43%, 22%);
-$Soft-Pink: hsl(333, 80%, 67%);
-$Dark-Grayish-Magenta: hsl(303, 10%, 53%);
-$Light-Grayish-Magenta: hsl(300, 24%, 96%);
-$White: hsl(0, 0%, 100%);
+  &__intro {
+    &--title {
+      font-weight: $font-weight-bold;
+      font-size: 2.4rem;
+      margin-top: 4.4rem;
+      padding: 0 2rem;
+      line-height: 2rem;
+      color: $Very-Dark-Magenta;
+    }
+
+    &--paragraph{
+        margin-top: -.4rem;
+        padding: 0 1rem;
+        font-size: 1.1rem;
+        font-weight: $font-weight-slim;
+        color: $Very-Dark-Magenta;
+        line-height: 1.6rem;
+        margin-bottom: 2.5rem;
+    }
+
+   &--rating{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 1rem;
+   }
+   &--rate{
+    color: $Very-Dark-Magenta;
+    font-weight: $font-weight-bold;
+    font-size: 1.05rem;
+   }
+
+   &--stars{
+    padding:  1rem 0 0;
+   }
+   &--reviews{
+    display: flex;
+    flex-direction: column;
+    background-color: $Light-Grayish-Magenta;
+    border-radius: 1rem;
+    
+   }
+   &--report{
+    background-color: $Light-Grayish-Magenta;
+    border-radius: 1rem;
+   
+   }
+   &--bestTech{
+    background-color: $Light-Grayish-Magenta;
+    border-radius: 1rem;
+   }
+  }
+&__testimonials{
+    background-color: $Very-Dark-Magenta;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+
+}

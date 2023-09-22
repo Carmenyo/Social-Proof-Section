@@ -1,1 +1,62 @@
-/*# sourceMappingURL=main.css.map */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.main__intro--title {
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-top: 4.4rem;
+  padding: 0 2rem;
+  line-height: 2rem;
+  color: hsl(300, 43%, 22%);
+}
+.main__intro--paragraph {
+  margin-top: -0.4rem;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: hsl(300, 43%, 22%);
+  line-height: 1.6rem;
+  margin-bottom: 2.5rem;
+}
+.main__intro--rating {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+.main__intro--rate {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+.main__intro--stars {
+  padding: 1rem 0 0;
+}
+.main__intro--reviews {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 1rem;
+}
+.main__intro--report {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 1rem;
+}
+.main__intro--bestTech {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 1rem;
+}
+.main__testimonials {
+  background-color: hsl(300, 43%, 22%);
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+body {
+  height: 100vh;
+  font-family: "League Spartan", sans-serif;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=main.css.map */

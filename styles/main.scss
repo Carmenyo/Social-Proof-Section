@@ -1,2 +1,9 @@
 @import "variables";
 @import "layout";
+
+
+body{
+    height: 100vh;
+    font-family: $font-family;
+    font-size: $font-size;
+}
