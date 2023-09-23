@@ -14,53 +14,85 @@
       color: $Very-Dark-Magenta;
     }
 
-    &--paragraph{
-        margin-top: -.4rem;
-        padding: 0 1rem;
-        font-size: 1.1rem;
-        font-weight: $font-weight-slim;
-        color: $Very-Dark-Magenta;
-        line-height: 1.6rem;
-        margin-bottom: 2.5rem;
+    &--paragraph {
+      margin-top: -0.4rem;
+      padding: 0 1rem;
+      font-size: 1.1rem;
+      font-weight: $font-weight-slim;
+      color: $Very-Dark-Magenta;
+      line-height: 1.6rem;
+      margin-bottom: 2.5rem;
     }
 
-   &--rating{
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin: 1rem;
-   }
-   &--rate{
-    color: $Very-Dark-Magenta;
-    font-weight: $font-weight-bold;
-    font-size: 1.05rem;
-   }
+    &--rating {
+      display: flex;
+      flex-direction: column;
+      margin: 1rem;
+      gap: 1rem;
+    }
+    &--rate {
+      color: $Very-Dark-Magenta;
+      font-weight: $font-weight-bold;
+      font-size: 1.05rem;
+      margin-top: .5rem;
+    }
 
-   &--stars{
-    padding:  1rem 0 0;
-   }
-   &--reviews{
-    display: flex;
-    flex-direction: column;
-    background-color: $Light-Grayish-Magenta;
-    border-radius: 1rem;
-    
-   }
-   &--report{
-    background-color: $Light-Grayish-Magenta;
-    border-radius: 1rem;
-   
-   }
-   &--bestTech{
-    background-color: $Light-Grayish-Magenta;
-    border-radius: 1rem;
-   }
+    &--stars {
+      padding: 1rem 0 0;
+    }
+    &--reviews {
+      display: flex;
+      flex-direction: column;
+      background-color: $Light-Grayish-Magenta;
+      border-radius: 1rem;
+    }
+    &--report {
+      background-color: $Light-Grayish-Magenta;
+      border-radius: 0.5rem;
+    }
+    &--bestTech {
+      background-color: $Light-Grayish-Magenta;
+      border-radius: 1rem;
+      margin-bottom: 1.4rem;
+    }
   }
-&__testimonials{
-    background-color: $Very-Dark-Magenta;
+  &__testimonials {
     margin: 1rem;
     border-radius: 1rem;
+    color: $White;
+
+    &--article {
+      background-color: $Very-Dark-Magenta;
+      padding: 1.7rem 2rem;
+      text-align: left;
+      margin-bottom: 1rem;
+      border-radius: 0.5rem;
+    }
+
+    &--author {
+      display: flex;
+      align-items: flex-end;
+      gap: 1rem;
+    }
+    &--detail{
+      line-height: .5rem;
+      margin-left: .7rem;
+      font-size: 1rem;
+    }
+
+    &--img {
+      border-radius: 3rem;
+      width: 40px;
+      height: 40px;
+    }
+
+    &--span {
+      color: $Soft-Pink;
+      font-weight: 100;
+    }
+
+&--paragraph{
+  line-height: 1.5rem;
 }
-
-
+  }
 }
