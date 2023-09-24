@@ -33,7 +33,7 @@
         align-items: baseline;
         width: 24rem;
         gap: 2rem;
-        margin-bottom: -.8rem;
+        margin-bottom: -0.8rem;
       }
       &--report {
         padding: 0 2rem;
@@ -43,7 +43,7 @@
         width: 24rem;
         gap: 2rem;
         margin-left: 3rem;
-        margin-bottom: -.8rem;
+        margin-bottom: -0.8rem;
       }
       &--bestTech {
         padding: 0 2rem;
@@ -53,6 +53,21 @@
         width: 24rem;
         gap: 2rem;
         margin-left: 6rem;
+      }
+    }
+
+    &__testimonials {
+      padding: 2.3rem 8.5rem;
+      display: flex;
+      gap: 2rem;
+
+      &--article2 {
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+      }
+      &--article3 {
+        margin-top: 2rem;
+        margin-bottom: -2rem;
       }
     }
   }

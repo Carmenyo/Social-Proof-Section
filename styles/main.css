@@ -139,6 +139,19 @@
     gap: 2rem;
     margin-left: 6rem;
   }
+  .main__testimonials {
+    padding: 2.3rem 8.5rem;
+    display: flex;
+    gap: 2rem;
+  }
+  .main__testimonials--article2 {
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+  }
+  .main__testimonials--article3 {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+  }
 }
 body {
   height: 100vh;
