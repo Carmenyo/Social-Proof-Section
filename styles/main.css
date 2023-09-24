@@ -58,10 +58,11 @@
 }
 .main__testimonials--article {
   background-color: hsl(300, 43%, 22%);
-  padding: 1.7rem 2rem;
+  padding: 1.7rem 2rem 1rem;
   text-align: left;
   margin-bottom: 1rem;
   border-radius: 0.5rem;
+  font-size: 1.05rem;
 }
 .main__testimonials--author {
   display: flex;
@@ -83,7 +84,7 @@
   font-weight: 100;
 }
 .main__testimonials--paragraph {
-  line-height: 1.5rem;
+  line-height: 1.4rem;
 }
 
 body {
