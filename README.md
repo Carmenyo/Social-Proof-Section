@@ -1,7 +1,5 @@
 # Frontend Mentor - Social Proof Section
 ![Preview of the Challenge design](./images/Neutral%20Minimal%20Shadow%20Photographer%20Frame%20Mockup%20Pinterest%20Pin.png)
-![Preview of the Challenge design](./images/Frontend-Mentor-Social-proof-section%20(1).png)
-![Preview of the Challenge design](./images/Frontend-Mentor-Social-proof-section%20(2).png)
 
 ## Project Description
 
