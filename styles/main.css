@@ -87,6 +87,26 @@
   line-height: 1.4rem;
 }
 
+@media (min-width: 769px) {
+  .main__intro {
+    display: flex;
+  }
+  .main__intro--left {
+    width: 50%;
+  }
+  .main__intro--title {
+    font-size: 3.5rem;
+    padding: 2.5rem 7rem;
+    margin: 4.5rem 2.4rem -1rem;
+    text-align: left;
+    line-height: 3rem;
+  }
+  .main__intro--paragraph {
+    padding: 0rem 7rem;
+    margin: 0rem 2.4rem;
+    text-align: left;
+  }
+}
 body {
   height: 100vh;
   font-family: "League Spartan", sans-serif;
