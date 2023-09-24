@@ -39,6 +39,7 @@
 
     &--stars {
       padding: 1rem 0 0;
+      
     }
     &--reviews {
       display: flex;
@@ -48,7 +49,7 @@
     }
     &--report {
       background-color: $Light-Grayish-Magenta;
-      border-radius: 0.5rem;
+      border-radius: 1rem;
     }
     &--bestTech {
       background-color: $Light-Grayish-Magenta;

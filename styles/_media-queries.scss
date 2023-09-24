@@ -15,9 +15,44 @@
       }
 
       &--paragraph {
-        padding: 0rem 7rem ;
-        margin: 0rem 2.4rem ;
+        padding: 0rem 7rem;
+        margin: 0rem 2.4rem;
         text-align: left;
+      }
+
+      &--rating {
+        margin-top: 8.5rem;
+        gap: 2rem;
+        font-size: $font-size;
+      }
+
+      &--reviews {
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        width: 24rem;
+        gap: 2rem;
+        margin-bottom: -.8rem;
+      }
+      &--report {
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        width: 24rem;
+        gap: 2rem;
+        margin-left: 3rem;
+        margin-bottom: -.8rem;
+      }
+      &--bestTech {
+        padding: 0 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        width: 24rem;
+        gap: 2rem;
+        margin-left: 6rem;
       }
     }
   }
